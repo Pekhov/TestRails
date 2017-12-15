@@ -41,7 +41,7 @@ end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '3.7.2'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -57,3 +57,4 @@ gem 'stomp'
 gem 'ruby-oci8'
 gem 'activerecord-oracle_enhanced-adapter'
 gem 'simple_form'
+gem 'bootstrap-sass', '3.3.7'
